@@ -34,11 +34,13 @@ CONVERT  = 0x12
 ## SMBus
 bus = smbus.SMBus(1)
 
-##  FaBo Barometer I2C Controll class
+## FaBo Barometer I2C Controll class
 class MPL115:
-    ## Begin Device
-    def __init__(self):
-        self.address = SLAVE_ADDRESS
+
+    ## Constructor
+    #  @param [in] address MPL115 I2C slave address default:0x60
+    def __init__(self, address=SLAVE_ADDRESS):
+        self.address = address
         self.readCoef()
 
     ## Read Coefficient Data
