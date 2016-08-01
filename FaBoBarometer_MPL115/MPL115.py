@@ -1,6 +1,6 @@
 # coding: utf-8
-## @package FaBoBarometer_MPL115
-#  This is a library for the FaBo Barometer I2C Brick.
+## @package MPL115
+#  This is a FaBoBarometer_MPL115 library for the FaBo Barometer I2C Brick.
 #
 #  http://fabo.io/204.html
 #
