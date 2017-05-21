@@ -106,8 +106,8 @@ if __name__ == "__main__":
         data  = barometer.readData()
         a_hpa = barometer.readHpa(212.0)
 
-        print "hpa  = ", data['hpa']
-        print "temp = ", data['temp']
-        print "hpa_aizu = ", a_hpa
-        print
+        print("hpa  = ", data['hpa'])
+        print("temp = ", data['temp'])
+        print("hpa_aizu = ", a_hpa)
+        print()
         time.sleep(1)

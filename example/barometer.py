@@ -22,10 +22,10 @@ try:
         data  = mpl115.readData()
         a_hpa = mpl115.readHpa(212.0)
 
-        print "hpa  = ", data['hpa']
-        print "temp = ", data['temp']
-        print "hpa_aizu = ", a_hpa
-        print
+        print("hpa  = ", data['hpa'])
+        print("temp = ", data['temp'])
+        print("hpa_aizu = ", a_hpa)
+        print()
         time.sleep(1)
 
 except KeyboardInterrupt:
